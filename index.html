@@ -28,12 +28,12 @@
                 os = 'Linux';
             }
             if (os === "iOS") {
-                window.location.assign = `itms-apps://itunes.apple.com/app/apple-store/id6443980458?mt=8`;
-//                 window.location.href = `https://apps.apple.com/vn/app/guvi/id6443966297?l=vi`;
+                window.location.assign(`itms-apps://itunes.apple.com/app/apple-store/id6443980458?mt=8`);
+//                 window.location.href(`https://apps.apple.com/vn/app/guvi/id6443966297?l=vi`);
             } else if (os === 'Android') {
-                window.location.assign = `market://details?id=com.guvico_collaborator`;
+                window.location.assign(`market://details?id=com.guvico_collaborator`);
             } else {
-                window.location.assign = `https://play.google.com/store/apps/details?id=com.guvico_collaborator`;
+                window.location.assign(`https://play.google.com/store/apps/details?id=com.guvico_collaborator`);
             }
         }
         // var intervalId = setInterval(decreaseCounter, 0);
